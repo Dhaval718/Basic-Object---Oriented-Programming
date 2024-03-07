@@ -17,20 +17,17 @@ private:
     float netSalary;
 
 public:
-    void getdata(int empNumber, string empName, float basicSalary, float da, float incomeTax)
+    void getdata(int empNumber, string empName, float bs, float da, float incomeTax)
     {
         employeeNumber = empNumber;
         employeeName = empName;
-        basic = basicSalary;
+        basic = bs;
         DA = da;
         IT = incomeTax;
 
-        calculateNetSalary();
-    }
-    void calculateNetSalary()
-    {
         netSalary = basic + DA - IT;
     }
+    
     void printDetails()
     {
         cout << "Employee Number: " << employeeNumber << endl;
