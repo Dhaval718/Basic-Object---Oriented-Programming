@@ -12,10 +12,9 @@ private:
 public:
     void setdata(int num)
     {
-
         n = num;
     }
-    static void add_3()
+    static void inc_3()
     {
         n *= 3;
         cout << "Number is " << n;
@@ -29,7 +28,7 @@ int main()
     static_member obj;
 
     obj.setdata(5);
-    obj.add_3();
+    obj.inc_3();
 
     return 0;
 }
