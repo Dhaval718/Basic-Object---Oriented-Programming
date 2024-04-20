@@ -61,6 +61,11 @@ public:
         cout << endl
              << "Bicycle Vehicle" << endl;
     }
+
+    void calculate_mileage()
+    {
+        cout << "No Fuel No mileage" << endl;
+    }
 };
 
 class Scooter : public Two_wheelers
@@ -95,17 +100,27 @@ public:
 
 int main()
 {
-    Bicycle b;
-    b.calculate_mileage();
+    Vehicle *vehicle = new Bicycle;
+    vehicle->calculate_mileage();
+    // Bicycle b;
+    // b.calculate_mileage();
 
-    Scooter s;
-    s.calculate_mileage();
+    vehicle = new Scooter;
+    vehicle->calculate_mileage();
+    // Scooter s;
+    // s.calculate_mileage();
 
-    Diesel_vehicle dv;
-    dv.calculate_mileage();
+    vehicle = new Diesel_vehicle;
+    vehicle->calculate_mileage();
+    // Diesel_vehicle dv;
+    // dv.calculate_mileage();
 
-    Petrol_vehicle pv;
-    pv.calculate_mileage();
+    vehicle = new Petrol_vehicle;
+    vehicle->calculate_mileage();
+    // Petrol_vehicle pv;
+    // pv.calculate_mileage();
+
+    delete vehicle;
 
     return 0;
 }
