@@ -51,7 +51,7 @@ int main()
     c1.put_data();
     c2.put_data();
 
-    cout << "The the addition is:" << endl;
+    cout << "The addition is:" << endl;
     add_complex_number(c1,c2);
 
     return 0;

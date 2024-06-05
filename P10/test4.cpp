@@ -1,7 +1,5 @@
 /* Write a C++ program to demonstrate use of constructor overloading.*/
 
-/*Write a C++ program to demonstrate use of parameterized constructor. */
-
 #include <iostream>
 using namespace std;
 
