@@ -13,7 +13,7 @@ For the people, for the good, for mankind brotherhood
 (We're traveling in time)
 -->
 
-<!-- 
+<pre>
 Ideas by man and only that will last
 And over time, we've learned from the past
 That no man's fit to rule the world alone
@@ -22,7 +22,7 @@ Happy nation, livin' in a happy nation
 Where the people understand and dream of perfect man
 Situation leading to sweet salvation
 For the people, for the good, for mankind brotherhood
--->
+</pre>
 
 <!--
 (We're traveling in time)
